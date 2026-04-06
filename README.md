@@ -1,6 +1,6 @@
 # Claude Code Skills
 
-Claude Code で使用するカスタムスキル集です。
+個人的な Claude Code で使用するカスタムスキル集です。
 
 ## スキル一覧
 
