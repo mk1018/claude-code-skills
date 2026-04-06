@@ -30,7 +30,13 @@ Create GitHub Issues from instructed tasks.
      - If specific code lines are mentioned, include a link to the code:
        - Format: `https://github.com/<owner/repo>/blob/{commit-hash}/{file-path}#L{start}-L{end}`
 
-   - If the user specifies a GitHub Project, link the issue after creation:
+   - **GitHub Project linking**:
+     - If the user specifies a GitHub Project, link the issue after creation
+     - If the user does not specify a project, list available projects using:
+       ```bash
+       gh project list --owner <owner> --format json
+       ```
+       and ask the user which project to link (or whether to skip linking)
      - Command: `gh project item-add <project-number> --owner <owner> --url <issue-url>`
 
 4. **Completion Report**

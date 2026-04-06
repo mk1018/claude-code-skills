@@ -1,3 +1,8 @@
+---
+name: review-and-push
+description: Codex CLIでレビューし、問題なければcommit-pushする
+---
+
 # Review and Push
 
 Codex CLIでレビューし、問題なければcommit-pushする。
